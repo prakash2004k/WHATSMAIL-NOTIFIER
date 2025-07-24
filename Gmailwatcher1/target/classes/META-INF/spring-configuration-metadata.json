@@ -1,0 +1,45 @@
+{
+  "groups": [
+    {
+      "name": "gmail",
+      "type": "com.gmailwatcher.gmailwatcher.config.GmailConfig",
+      "sourceType": "com.gmailwatcher.gmailwatcher.config.GmailConfig"
+    },
+    {
+      "name": "twilio",
+      "type": "com.gmailwatcher.gmailwatcher.config.TwilioConfig",
+      "sourceType": "com.gmailwatcher.gmailwatcher.config.TwilioConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "gmail.password",
+      "type": "java.lang.String",
+      "sourceType": "com.gmailwatcher.gmailwatcher.config.GmailConfig"
+    },
+    {
+      "name": "gmail.username",
+      "type": "java.lang.String",
+      "sourceType": "com.gmailwatcher.gmailwatcher.config.GmailConfig"
+    },
+    {
+      "name": "twilio.account-sid",
+      "type": "java.lang.String",
+      "sourceType": "com.gmailwatcher.gmailwatcher.config.TwilioConfig"
+    },
+    {
+      "name": "twilio.auth-token",
+      "type": "java.lang.String",
+      "sourceType": "com.gmailwatcher.gmailwatcher.config.TwilioConfig"
+    },
+    {
+      "name": "twilio.whatsapp-from",
+      "type": "java.lang.String",
+      "sourceType": "com.gmailwatcher.gmailwatcher.config.TwilioConfig"
+    }
+  ],
+  "hints": [],
+  "ignored": {
+    "properties": []
+  }
+}
